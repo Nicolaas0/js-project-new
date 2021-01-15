@@ -17,3 +17,7 @@ function time(i){
 
 
 }
+
+function chpct(){
+    document.getElementById("btn").innerHTML.s
+}
