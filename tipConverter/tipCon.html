@@ -8,9 +8,12 @@
 </head>
 <body>
     <div class="container">
+
         <div class="title">
             <h1>Bill Converter</h1>
         </div>
+
+<!-- start of amount area -->
 
         <div class="amount">
             <label id="ham">How much was your bill</label> <br>
@@ -20,12 +23,39 @@
             <input class="inputam" type="text">
         </div>
 
+<!-- end of amount area -->
+
+<!-- start of service area -->
         <div class="service">
-            <label id="ham">How is the service?</label> <br>
-            
-            
-            <input class="inputam" type="text">
+
+            <label id="servL">How is the service?</label> <br>
+
+            <select id="servS">
+                <option value="0" disabled selected>Choose an option</option>
+                <option value="0.1">10% Bad</option>
+                <option value="0.2">20% Good</option>
+                <option value="0.3">30% Great</option>
+                <option value="0.4">40% Outstanding</option>
+            </select>
+
         </div>
+<!-- end of service area -->
+
+<!-- start of person area -->
+
+<div class="person">
+    <label id="persL">How much person to split the bill?</label> <br>
+    
+    <input class="inputpers" type="text">
+    
+    <span>people</span>
+</div>
+
+<!-- end of person area -->
+
+<button id="btn">Calculate!</button>
+
     </div>
+
 </body>
 </html>
