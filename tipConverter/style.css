@@ -1,3 +1,20 @@
 body{
     background: #fdfffc;
 }
+
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    max-width: auto;
+}
+
+.title{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.inputam{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
