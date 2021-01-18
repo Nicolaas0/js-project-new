@@ -1,40 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-    background: #fdfffc;
+    background: #ff9f1c;
+}
+
+*{
+    color: #fdfffc;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+input{
+    background-color: #e71d36;
+    border: none;
+    border-bottom: #fdfffc 2px solid;
 }
 
 .container{
-    height: 100%;
-    width: 100%;
+    width: 80%;
     text-align: center;
-    max-width: auto;
+    border-radius: 10px;
+    background-color: #e71d36;
+    border: 5px #011627 solid;
 }
 
-.title{
-    margin-bottom: 20px;
-    margin-top: 50px;
+.container .title div{
+    margin-bottom: 10px;
+    background-color: #e71d36;
+    border-radius: 100px;
+    height: 100%;
+    padding: 10px;
+    font-size:40px;
+    font-weight: bold;
+    color: #011627;
 }
 
 .inputam{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+/* end of amount area */
 #servS{
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
+select{
+    background-color: #e71d36;
+    border: #fdfffc solid;
+}
+
+/* end of service area */
 .inputpers{
     margin-top: 10px;
     margin-bottom: 20px;
     margin-right: 5px;
 }
+/* end of person area */
 
 #btn{
     margin-bottom: 30px;
+    background-color: #e71d36;
+    border: #fdfffc 3px solid;
+}
+
+.result{
+    margin-bottom: 20px;
+}
+
+.container .result span{
+    font-size: 50px;
+}
+
+.container .result #each{
+    display: inline-block;
+    flex: auto;
 }
 
 #dollar{
 font-weight: bold;
-
 }
