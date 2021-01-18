@@ -74,7 +74,7 @@ select{
 
 .container .result #each{
     display: inline-block;
-    flex: auto;
+    flex: auto ;
 }
 
 #dollar{
