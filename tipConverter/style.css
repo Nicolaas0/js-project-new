@@ -17,11 +17,12 @@ input{
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     text-align: center;
     border-radius: 10px;
     background-color: #e71d36;
     border: 5px #011627 solid;
+    padding-bottom: 60px;
 }
 
 .container .title div{
@@ -40,7 +41,7 @@ input{
     margin-bottom: 20px;
 }
 /* end of amount area */
-#servS{
+#as{
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -65,7 +66,7 @@ select{
 }
 
 .result{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .container .result span{
@@ -74,7 +75,6 @@ select{
 
 .container .result #each{
     display: inline-block;
-    flex: auto ;
 }
 
 #dollar{
