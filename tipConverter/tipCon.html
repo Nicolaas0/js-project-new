@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
+      <div class="title">
+        <div>Bill Converter</div>
+      </div>
 
-        <div class="title">
-            <h1>Bill Converter</h1>
-        </div>
+      <!-- start of amount area -->
 
-<!-- start of amount area -->
+      <div class="amount">
+        <label id="ham">How much was your bill</label> <br />
 
-        <div class="amount">
-            <label id="ham">How much was your bill</label> <br>
-            
-            <span>$</span>
-            
-            <input class="inputam" type="text">
-        </div>
+        <span>$</span>
 
-<!-- end of amount area -->
+        <input class="inputam" type="text" />
+      </div>
 
-<!-- start of service area -->
-        <div class="service">
+      <!-- end of amount area -->
 
-            <label id="servL">How is the service?</label> <br>
+      <!-- start of service area -->
+      <div class="service">
+        <label id="servL">How is the service?</label> <br />
 
-            <select id="servS">
-                <option value="0" disabled selected>Choose an option</option>
-                <option value="0.1">10% Bad</option>
-                <option value="0.2">20% Good</option>
-                <option value="0.3">30% Great</option>
-                <option value="0.4">40% Outstanding</option>
-            </select>
+        <select id="servS">
+          <option value="0" disabled selected>Choose an option</option>
+          <option value="0.1">10% Bad</option>
+          <option value="0.2">20% Good</option>
+          <option value="0.3">30% Great</option>
+          <option value="0.4">40% Outstanding</option>
+        </select>
+      </div>
+      <!-- end of service area -->
 
-        </div>
-<!-- end of service area -->
+      <!-- start of person area -->
 
-<!-- start of person area -->
+      <div class="person">
+        <label id="persL">How much person to split the bill?</label> <br />
 
-<div class="person">
-    <label id="persL">How much person to split the bill?</label> <br>
-    
-    <input class="inputpers" type="text">
-    
-    <span>people</span>
-</div>
+        <input class="inputpers" type="text" />
 
-<!-- end of person area -->
+        <span>people</span>
+      </div>
 
-<button id="btn">Calculate!</button> <br>
-<!-- button -->
+      <!-- end of person area -->
 
-<div class="total">
+      <button id="btn">Calculate!</button> <br />
+      <!-- button -->
 
-<span>each</span>
+      <!-- start of total area -->
+      <div class="result">
+        <div id="each">each</div>
 
-<span id="dollar">$</span>
+        <span id="dollar">$</span>
 
-<span id="total">total</span>
-</div>
+        <span id="total">total</span>
+      </div>
+      <!-- end of total area -->
     </div>
-
-</body>
+  </body>
 </html>
