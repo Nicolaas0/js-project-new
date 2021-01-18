@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Bill Converter</title>
   </head>
   <body>
     <div class="container">
@@ -13,13 +13,13 @@
       </div>
 
       <!-- start of amount area -->
-
+      <form>
       <div class="amount">
         <label id="ham">How much was your bill</label> <br />
 
         <span>$</span>
 
-        <input class="inputam" type="text" />
+        <input id="ab" class="inputam" type="text" />
       </div>
 
       <!-- end of amount area -->
@@ -28,7 +28,7 @@
       <div class="service">
         <label id="servL">How is the service?</label> <br />
 
-        <select id="servS">
+        <select id="as">
           <option value="0" disabled selected>Choose an option</option>
           <option value="0.1">10% Bad</option>
           <option value="0.2">20% Good</option>
@@ -36,6 +36,7 @@
           <option value="0.4">40% Outstanding</option>
         </select>
       </div>
+     </form>
       <!-- end of service area -->
 
       <!-- start of person area -->
@@ -43,18 +44,18 @@
       <div class="person">
         <label id="persL">How much person to split the bill?</label> <br />
 
-        <input class="inputpers" type="text" />
+        <input id="np" class="inputpers" type="text" />
 
         <span>people</span>
       </div>
 
       <!-- end of person area -->
 
-      <button id="btn">Calculate!</button> <br />
+      <button onclick="" type="button" id="btn">Calculate!</button> <br/>
       <!-- button -->
 
       <!-- start of total area -->
-      <div class="result">
+      <div id="rs" class="result">
         <div id="each">each</div>
 
         <span id="dollar">$</span>
@@ -62,6 +63,7 @@
         <span id="total">total</span>
       </div>
       <!-- end of total area -->
-    </div>
+    </div> 
+    <script type="text/javascript" src="tip.js"></script>
   </body>
 </html>
