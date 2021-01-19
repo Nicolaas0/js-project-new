@@ -60,13 +60,9 @@ select{
 /* end of person area */
 
 #btn{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background-color: #e71d36;
     border: #fdfffc 3px solid;
-}
-
-.result{
-    margin-bottom: 40px;
 }
 
 .container .result span{
