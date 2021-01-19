@@ -32,6 +32,9 @@ function calculation(){
     
 }
 
+document.getElementById('each').style.display = "none";
+
+document.getElementById('rs').style.display = "none";
 
 document.getElementById('btn').onclick = function(){
     calculation();
