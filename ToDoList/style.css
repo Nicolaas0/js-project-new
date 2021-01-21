@@ -25,7 +25,7 @@ body{
 }
 
 
-#inval{
+#in{
     margin-right: 1px;
     width: 50%;
     font-size: 30px;
@@ -42,5 +42,10 @@ button{
     background-color: #ffd400;
     padding: 15px;
     border-radius: 10px;
+}
+
+li{
+    list-style: none;
+    color: #d90368;
 }
 
