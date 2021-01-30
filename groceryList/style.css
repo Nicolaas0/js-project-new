@@ -23,3 +23,8 @@ ul{
     list-style: circle;
     list-style-position: inside;
 }
+button{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
