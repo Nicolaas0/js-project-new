@@ -1,20 +1,33 @@
-const item = ['Tomatoes','Chicken','Cabbage'];
+const item = 'tomatoes';
 
-const list = document.getElementsByTagName('ul');
+const list = document.querySelector("ul");
 
+const button = document.getElementById("btn");
 
-document.body.onload = show;
+const input = document.getElementById("inputam");
 
 function show() {
 
-    var li = document.createElement("li");
-    const items = item[0];
+    let li = document.createElement('li');
 
-    li.appendChild(items);
+    li.appendChild(document.createTextNode(inputam.value));
 
     list.appendChild(li);
+
+    input.value = "";
 }
 
-const button = document.getElementsById("btn");
+function validate() { 
+    if (input.value != null && input.value != "") {
+        show();
+    }
+}
 
-button.addEventListener("click",show);
+    function enter(){ 
+        if (input.value != null && input.value != "" && event.which == 13) {
+            show();
+        }
+    }
+    
+button.addEventListener("click", validate);
+input.addEventListener("keypress", enter);
