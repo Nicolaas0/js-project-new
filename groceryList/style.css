@@ -1,60 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Palanquin+Dark&family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Palanquin+Dark&family=Secular+One&display=swap");
 
-
-
-body{
-    margin-top: 50px;
-    background-color: #edddd4;
+body {
+  margin-top: 50px;
+  background-color: #edddd4;
 }
 
-.container{
-    position: absolute;
-    left: 30%;
-    width: 40%;
+.container {
+  position: absolute;
+  left: 30%;
+  width: 40%;
 }
 
-h1{
-    margin-bottom: 25px;
-    text-align: center;
-    font-family: 'Secular One';
-    color: #197278;
-    font-size: 65px;
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Secular One";
+  color: #197278;
+  font-size: 65px;
+}
+
+.main{
+    position: relative;
 }
 
 button {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: inline-block;
-    position: absolute;
-    margin: 20px;
-    
+  display: inline;
+  position: absolute;
+  left: 520px;
+  top: 15px;
+  border: solid #edddd4;
+  background: #edddd4;
+  font-family: "Secular One";
+  color: #197278;
 }
 
-#inputam{
-    margin-left: 60px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 6px solid #772e25;
-    width: 80%;
-    font-size: 20px;
-    background-color: #c44536;
-    color: #fff;
+#inputam {
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 6px solid #772e25;
+  width: 80%;
+  font-size: 20px;
+  background-color: #c44536;
+  color: #fff;
 }
 
-.list{
-    text-align: center;
-    margin-bottom: 20px;
-}
- 
-ul{
-    list-style: circle;
-    list-style-position: inside;
+.list {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-li{
-    width: 90%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+ul {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+li {
+  width: 90%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px black solid;
 }
