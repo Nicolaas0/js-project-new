@@ -19,8 +19,8 @@ h1 {
   font-size: 65px;
 }
 
-.main{
-    position: relative;
+.main {
+  position: relative;
 }
 
 button {
@@ -53,13 +53,22 @@ button {
 }
 
 ul {
-  list-style: circle;
+  list-style: none;
   list-style-position: inside;
 }
 
 li {
-  width: 90%;
+  width: 70%;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px black solid;
+  margin-left: 60px;
+  border: 4px #c8553d solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  transition: 1s;
+}
+
+li:hover {
+  background-color: #f28f3b;
 }
