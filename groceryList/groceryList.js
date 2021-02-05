@@ -1,26 +1,33 @@
 const item = document.getElementsByTagName('li');
-
 const list = document.querySelector("ul");
-
 const button = document.getElementById("btn");
-
 const input = document.getElementById("inputam");
+const input2 = document.getElementById("inputam2");
 
 function inputLength() {
     
     return input.value.length;
-} 
+
+}
+
+function inputLength2() {
+    return input2.value.length;
+}
 
 
 function show() {
 
     let li = document.createElement('li');
 
-    li.appendChild(document.createTextNode(inputam.value));
+    let things = input.value;
+    let quantity = input2.value;
+
+    li.appendChild(document.createTextNode(things+ ", " +"Q: " + quantity));
 
     list.appendChild(li);
 
     input.value = "";
+    input2.value = "";
 
     function done() { 
 
@@ -42,6 +49,9 @@ function validate() {
             show();
         }
     }
+
+    
     
 button.addEventListener("click", validate);
 input.addEventListener("keypress", enter);
+input2.addEventListener("keypress", enter);
