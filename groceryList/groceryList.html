@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <h1>Grocery List</h1>
 
       <div class="main">
-        <input id="inputam" type="text" />
+
+        <div class="things">
+          <input id="inputam" type="text" placeholder="What do you want to buy?" />
+        </div>
+
+        <div class="much">
+          <input type="text" placeholder="0-9" id="inputam2" />
+        </div>
+
         <button id="btn"><span class="material-icons">add_box</span></button>
+        
       </div>
 
       <div class="list">
@@ -22,7 +33,6 @@
           <!-- li goes here -->
         </ul>
       </div>
-
     </div>
 
     <script src="groceryList.js"></script>
