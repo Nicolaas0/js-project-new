@@ -35,16 +35,52 @@ button {
 }
 
 #inputam {
-  margin-left: 60px;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: 6px solid #772e25;
-  width: 80%;
+  width: 50%;
   font-size: 20px;
   background-color: #c44536;
   color: #fff;
+}
+
+#inputam2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 6px solid #772e25;
+    width: 20%;
+    font-size: 20px;
+    background-color: #c44536;
+    color: #fff;
+}
+
+label{
+  text-align: center;
+  margin-left: 100px;
+}
+
+.things{
+  display: inline;
+  margin-left: 60px;
+  margin-right: 20px;
+  color: white;
+}
+
+::placeholder{
+  color: white;
+  opacity: 95%;
+}
+
+input:focus::placeholder{
+  color: transparent;
+}
+
+.much{
+  display: inline;
 }
 
 .list {
