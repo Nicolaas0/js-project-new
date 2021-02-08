@@ -17,34 +17,3 @@ function time(i){
 
 
 }
-
-function chpct(){
-    document.getElementById("img").src=count();
-}
-
-function count(){
-    document.getElementById('btn').addEventListener('click',function () {
-        switch ('click') {
-            case 1:
-                return "assest/meme2-min.jpg"
-                break;
-        
-            default:
-                break;
-        }
-    }) 
-    }
-
-function src(){
-
-    var click = count.toString();
-
-    switch (click) {
-        case "1":
-          return "assest/meme2-min.jpg"
-            break;
-    
-        default:
-            break;
-    }
-}

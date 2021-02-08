@@ -29,8 +29,6 @@ h1{
     padding: 3px;
     margin-top: 20px;
     width: 50%;
-    border: 6px #ef476f solid;
-    border-radius: 3px;
 }
 
 .container .btn{
@@ -50,6 +48,7 @@ h1{
 footer{
     text-align: center;
     font-family: 'Righteous';
+    color: #ef476f;
 }
 
 
