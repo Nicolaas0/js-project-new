@@ -1,32 +1,38 @@
-*{
-    text-align: center;
+/* Display */
+.d-il {
+  display: inline;
 }
 
-body{
-  background: radial-gradient(circle, rgba(53, 255, 83, 1) 0%, rgba(63, 247, 242, 1) 100%);
-}
-
-.main{
-    position: relative;
-    top:50px;
-    left: 470px;
-    border-radius: 6px;
-    box-shadow:1px 5px 20px rgba(0, 0, 0, 0.8);
-    border: 1px white solid;
-    padding-bottom: 50px;
-    width: 30%;
-    padding-top: 20px;
-    background-color: white;
-}
-
-label{
+.d-bl{
     display: block;
+}
+
+.d-bil{
+    display: inline-block;
+}
+
+/* Margin */
+.m{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-button{
-    position: absolute;
-    top: 270px;
-    left: 175px;
+/* Width */
+.w-s {
+  width: 100px;
+}
+
+.w-xs{
+    width: 50px;
+}
+
+/* text align */
+
+.text-center{
+    text-align: center;
+}
+
+/* border */
+.border{
+    border: 1px black solid;
 }
