@@ -25,6 +25,11 @@
     margin-bottom: 10px;
 }
 
+/* Padding */
+.p{
+    padding: 10px;
+}
+
 /* Width */
 .w-s {
   width: 100px;
@@ -61,6 +66,10 @@
     border: 1px black solid;
 }
 
+.borderless{
+    border: none;
+}
+
 .semi-rounded{
     border-radius: 5px;
 }
@@ -70,11 +79,16 @@
 }
 
 /* Font Size */
-.font-s{
-    font-size: 15px;
+.font-m{
+    font-size: 17px;
 }
 
 /* Placeholder */
 input:focus::placeholder{
     color: transparent;
+}
+
+/* Background Color */
+.bg-grey-200{
+    background-color: rgb(255, 175, 175);
 }
