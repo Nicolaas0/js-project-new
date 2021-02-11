@@ -17,6 +17,14 @@
     margin-bottom: 10px;
 }
 
+.m-center{
+    margin: 30px auto;
+}
+
+.m-b-10{
+    margin-bottom: 10px;
+}
+
 /* Width */
 .w-s {
   width: 100px;
@@ -24,6 +32,22 @@
 
 .w-xs{
     width: 50px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-35{
+    width: 35%;
+}
+
+.w-30{
+    width: 30%;
 }
 
 /* text align */
@@ -35,4 +59,22 @@
 /* border */
 .border{
     border: 1px black solid;
+}
+
+.semi-rounded{
+    border-radius: 5px;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+/* Font Size */
+.font-s{
+    font-size: 15px;
+}
+
+/* Placeholder */
+input:focus::placeholder{
+    color: transparent;
 }
