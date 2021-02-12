@@ -95,6 +95,14 @@
   border-radius: 10px;
 }
 
+.border-yellow{
+    border: 5px #e9ff70 solid;
+}
+
+.border-yellow-light{
+    border: 3px #e9ff70 solid;
+}
+
 /* Font Size */
 .font-m {
   font-size: 17px;
@@ -109,6 +117,7 @@
 ::placeholder {
   color: azure;
   font-family: "Work Sans";
+  opacity: 80%;
 }
 
 .ph-center::placeholder {
@@ -119,8 +128,12 @@ input:focus::placeholder {
   color: transparent;
 }
 
-/* input */
+/* outline:none */
 input:focus{
+    outline: none;
+}
+
+button:focus{
     outline: none;
 }
 
@@ -131,6 +144,26 @@ input:focus{
 
 .bg-green-100 {
   background-color: #80ed99;
+}
+
+.bg-pink-100{
+    background-color: #ff70a6;
+}
+
+.bg-yellow-100{
+    background-color: #e9ff70;
+}
+
+.bg-orange-100{
+    background-color: #ffd670;
+}
+
+.bg-peach{
+    background-color: #ff9770;
+}
+
+.bg-bgum{
+    background-color: #70d6ff;
 }
 
 /* fonts */
@@ -148,4 +181,9 @@ input:focus{
 
 .font-fjalla{
     font-family: "Fjalla One";
+}
+
+/* Shadow */
+.shadow{
+    box-shadow: 12px 12px 0px  #e9ff70;
 }
