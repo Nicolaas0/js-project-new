@@ -4,51 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="regist.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body class="">
-    <div class="container m-center text-center w-35 border rounded">
+    <div class="container p-x-20 m-center text-center w-35 border rounded">
       <div>
-        <h1>Register</h1>
       </div>
       <div class="main">
         <form action="">
-          <label class="" for="">Full Name</label>
+          <label class="font-rubik m-t-20" for="">Full Name</label>
           <div class="m">
             <input
-              class="w-s font-m semi-rounded bg-green-100 borderless p f-white"
+              class="w-s font-m semi-rounded bg-green-100 borderless p f-white font-work"
               type="text"
               placeholder="First Name"
             />
             <input
-              class="font-m semi-rounded bg-green-100 borderless p"
+              class="font-m semi-rounded bg-green-100 borderless p font-work
               type="text"
               placeholder="Last Name"
             />
           </div>
-          <label for="">Phone Number</label>
+          <label for="" class="font-rubik">Phone Number</label>
           <div class="m">
             <input
-              class="w-xs font-m semi-rounded bg-green-100 borderless p"
+              class="w-xs font-m semi-rounded bg-green-100 borderless p font-work"
               type="text"
               placeholder="+62"
             />
             <input
-              class="font-m semi-rounded bg-green-100 borderless p"
+              class="font-m semi-rounded bg-green-100 borderless p font-work"
               type="text"
               placeholder="1234567890"
             />
           </div>
-          <label for="">Email</label>
+          <label for="" class="font-rubik">Email</label>
           <div class="m">
             <input
-              class="font-m semi-rounded bg-green-100 borderless p"
+              class="font-m semi-rounded bg-green-100 borderless p font-work"
               type="text"
-              placeholder="youremail@whatmail.com"
+              placeholder="email@whatmail.com"
             />
           </div>
-          <label for="">Password</label>
+          <label for="" class="font-rubik">Password</label>
           <div class="m">
             <input
               class="font-m semi-rounded bg-green-100 borderless p ph-center"
@@ -56,7 +55,14 @@
               placeholder="Password"
             />
           </div>
-          <button class="m-b-10">Submit</button>
+          <div class="m-b-10">
+            <label for="" class="d-bl font-rubik m-b-5">Gender</label>
+            <label for="" class="font-rubik">Male</label>
+            <input type="radio" name="gender">
+            <label for="" class="font-rubik">Female</label>
+            <input type="radio" name="gender">
+          </div>
+          <button class="">Submit</button>
         </form>
       </div>
     </div>
