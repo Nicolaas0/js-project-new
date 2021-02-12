@@ -1,33 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@536&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@490&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@490&display=swap');
+
+
+
 /* Display */
 .d-il {
   display: inline;
 }
 
-.d-bl{
-    display: block;
+.d-bl {
+  display: block;
 }
 
-.d-bil{
-    display: inline-block;
+.d-bil {
+  display: inline-block;
 }
 
 /* Margin */
-.m{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.m {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.m-center{
-    margin: 30px auto;
+.m-center {
+  margin: 50px auto;
 }
 
-.m-b-10{
-    margin-bottom: 10px;
+.m-b-5{
+    margin-bottom: 5px;
 }
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
 
 /* Padding */
-.p{
-    padding: 10px;
+.p {
+  padding: 10px;
+}
+
+.p-x-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Width */
@@ -35,80 +52,100 @@
   width: 100px;
 }
 
-.w-xs{
-    width: 50px;
+.w-xs {
+  width: 50px;
 }
 
-.w-50{
-    width: 50%;
+.w-50 {
+  width: 50%;
 }
 
-.w-40{
-    width: 40%;
+.w-40 {
+  width: 40%;
 }
 
-.w-35{
-    width: 35%;
+.w-35 {
+  width: 35%;
 }
 
-.w-30{
-    width: 30%;
+.w-30 {
+  width: 30%;
 }
 
 /* text align */
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
 /* border */
-.border{
-    border: 1px black solid;
+.border {
+  border: 1px black solid;
 }
 
-
-
-.borderless{
-    border: none;
+.borderless {
+  border: none;
 }
 
-.semi-rounded{
-    border-radius: 5px;
+.semi-rounded {
+  border-radius: 5px;
 }
 
-.rounded{
-    border-radius: 10px;
+.rounded {
+  border-radius: 10px;
 }
 
 /* Font Size */
-.font-m{
-    font-size: 17px;
+.font-m {
+  font-size: 17px;
 }
 
 /* Font Colors */
-.f-white{
-    color: white;
+.f-white {
+  color: white;
 }
-
 
 /* Placeholder */
-::placeholder{
-    color: azure;
+::placeholder {
+  color: azure;
+  font-family: "Work Sans";
 }
 
-.ph-center::placeholder{
-    text-align: center;
+.ph-center::placeholder {
+  text-align: center;
 }
 
-input:focus::placeholder{
-    color: transparent;
+input:focus::placeholder {
+  color: transparent;
+}
+
+/* input */
+input:focus{
+    outline: none;
 }
 
 /* Background Color */
-.bg-grey-200{
-    background-color: rgb(248, 196, 196);
+.bg-grey-200 {
+  background-color: rgb(248, 196, 196);
 }
 
-.bg-green-100{
-    background-color: #80ed99;
+.bg-green-100 {
+  background-color: #80ed99;
+}
+
+/* fonts */
+.font-pt {
+  font-family: "PT Sans";
+}
+
+.font-rubik{
+    font-family: 'Rubik';
+}
+
+.font-work{
+    font-family: 'Work Sans';
+}
+
+.font-fjalla{
+    font-family: "Fjalla One";
 }
