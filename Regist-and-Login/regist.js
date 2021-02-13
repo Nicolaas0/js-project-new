@@ -1,19 +1,31 @@
-
 const fn = document.getElementById('fn');
+const ln = document.getElementById('ln');
+const ca = document.getElementById('ca');
+const pn = document.getElementById('pn');
+const em = document.getElementById('em');
+const pass = document.getElementById('pass');
 const btn = document.getElementById('btn');
+const input = document.getElementsByTagName('input');
 
-function fnLength() {
-
+const fnLength = () => {
     return fn.value.length;
-
 }
 
-function validate() {
-    if (fn.value != null && fn.value !="") {
-        document.getElementById('container').style.display = "none";
-    }
+const lnLength = () => {
+    return ln.value.length;
+}
+const caLength = () => {
+    return ca.value.length;
 }
 
-btn.addEventListener('click', validate);
+const pnLength = () => {
+    return pn.value.length;
+}
 
+const emLength = () => {
+    return em.value.length;
+}
 
+const passLength = () => {
+    return pass.value.length;
+}
