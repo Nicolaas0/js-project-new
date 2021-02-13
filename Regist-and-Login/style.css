@@ -18,6 +18,15 @@
   display: inline-block;
 }
 
+/* Position */
+.relative{
+  position: relative;
+}
+
+.left-10p{
+  left: 10%;
+}
+
 /* Margin */
 .m {
   margin-top: 10px;
@@ -36,6 +45,9 @@
   margin-bottom: 10px;
 }
 
+.m-t-50{
+  margin-top: 50px;
+}
 
 /* Padding */
 .p {
