@@ -1,0 +1,85 @@
+Rock-paper-Scissor Pseudocode.
+ATTEMPT 1 :
+////////////
+
+FUNCTION player{
+if(choice == scissor){
+    pick == scissor
+    game(pick)
+}else if(choice == rock){
+    pick == rock
+    game(pick)
+}else if(choice == paper){
+    pick == paper
+    game(pick)
+}
+}
+
+FUNCTION game(pick){
+    if(pick == scissor){
+       scLogic()
+    }else if(pick == scissor){
+        paLogic()
+    }else if(pick == scissor){
+        roLogic()
+    }
+}
+
+    FUNCTION scLogic(com){
+        if(pick == scissor && com == scissor){
+            even()
+        }
+        if(pick == scissor && com == rock){
+            lose()
+        }
+        if(pick == scissor && com == paper){
+            win()
+        }
+    }
+
+        FUNCTION paLogic(com){
+        if(pick == paper && com == scissor){
+           lose()
+        }
+        if(pick == paper && com == rock){
+            win()
+        }
+        if(pick == paper && com == paper){
+            even()
+        }
+    }
+
+            FUNCTION roLogic(com){
+        if(pick == rock && com == scissor){
+           win()
+        }
+        if(pick == rock && com == rock){
+            even()
+        }
+        if(pick == rock && com == paper){
+            lose()
+        }
+    }
+
+    FUNCTION computer{
+        const comChoice = () =>{
+            return Math.floor(Math.random()*2)+1
+        };
+
+        switch(comChoice){
+            case 1 :
+            com = scissors
+            break
+            case 2 :
+            com = rock
+            break
+            case 3 :
+            com = paper
+            break
+            default
+        }
+        return com
+    }
+// Unfinished
+// TOO COMPLICATED!! :(
+
