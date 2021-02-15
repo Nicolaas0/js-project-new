@@ -63,7 +63,6 @@ FUNCTION game(pick){
 
     FUNCTION computer{
         const comChoice = () =>{
-            return Math.floor(Math.random()*2)+1
         };
 
         switch(comChoice){
@@ -83,3 +82,83 @@ FUNCTION game(pick){
 // Unfinished
 // TOO COMPLICATED!! :(
 
+ATTEMPT 2 :
+///////////
+
+button.addEventListener('click', game())
+
+function start{
+    choice = e.target.textContent
+    game(choice,comChoice)
+}
+
+function computer{
+    comChoice = return Math.floor(Math.random()*2)+1
+
+        switch(comChoice){
+        case 1 : comChoice = scissor; break;
+        case 2 : comChoice = rock; break;
+        case 3 : comChoice = paper; break;
+    }
+    return comChoice
+}
+
+FUNCTION game(choice,comChoice){
+    if(choice == scissor){
+        scLogic(comChoice)
+    }
+        if(choice == rock){
+        roLogic(comChoice)
+    }    
+        if(choice == paper){
+        paLogic(comChoice)
+    }
+}
+
+FUNCTION scLogic{
+    if(comChoice == rock){
+        lose()
+    }
+     if(comChoice == paper){
+        win()
+    }
+     if(comChoice == scissor){
+        even()
+    }    
+}
+
+FUNCTION roLogic{
+    if(comChoice == rock){
+        even()
+    }
+     if(comChoice == paper){
+        lose()
+    }
+     if(comChoice == scissor){
+        win()
+    }    
+}
+
+FUNCTION paLogic{
+    if(comChoice == rock){
+        win()
+    }
+     if(comChoice == paper){
+        even()
+    }
+     if(comChoice == scissor){
+        lose()
+    }    
+}
+
+FUNCTION win{
+    // winning message, score to player
+}
+
+FUNCTION lose{
+    // lose message, score to com
+} 
+
+FUNCTION even{
+    // even message, no score for both
+}
