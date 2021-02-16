@@ -85,7 +85,7 @@ FUNCTION game(pick){
 ATTEMPT 2 :
 ///////////
 
-button.addEventListener('click', game())
+button.addEventListener('click', start())
 
 function start{
     choice = e.target.textContent
