@@ -7,7 +7,7 @@ for (let i = 0; i < btn.length; i++) {
 }
 
     function game(e) {
-        let player = e.target.innerText;
+        let Player = e.target.innerText;
 
         let com = Math.random();
 
@@ -19,59 +19,56 @@ for (let i = 0; i < btn.length; i++) {
             com = "pa";
         }
 
-        let result = logic(player, com);
+        let result = logic(Player, com);
 
         let resmod = judge(result);
         
         res.innerHTML = resmod;
 
-        comres.innerHTML = 'Computer is choosing ' + com;
+        comres.innerHTML = '<span>Computer</span> is choosing ' +"<i>"+"<span>"+ com + "</span>" + "</i>";
 
     }
 
     function judge(result) {
-        if (result === 'player') {
-          return  result += 'Wins!';
+        if (result === 'Player') {
+          return  result += ' win!';
         }
 
-        if (result === 'computer') {
-           return result += "Lose!";
+        if (result === 'Computer') {
+           return result += " lose!";
         }
 
         if (result === 'draw') {
-           return result = "Its even!";
+           return result = " Its even!";
         }
     }
 
-    function logic(player,com) {
-        
-    }
-    function logic(player, com) {
-        if (player === com) {
+    function logic(Player, com) {
+        if (Player === com) {
             return 'draw';
         }
 
-        if (player === 'pa') {
+        if (Player === 'pa') {
             if (com === 'sc') {
-                return 'computer'
+                return 'Computer'
             } else {
-                return 'player'
+                return 'Player'
             }
         }
 
-        if (player === "sc") {
+        if (Player === "sc") {
             if (com === "ro") {
-                return "player";
+                return "Player";
             } else {
-                return "computer";
+                return "Computer";
             }
         }
     
-        if (player === "ro") {
+        if (Player === "ro") {
             if (com === "pa") {
-                return "player";
+                return "Player";
             } else {
-                return "computer";
+                return "Computer";
             }
         }
     }
