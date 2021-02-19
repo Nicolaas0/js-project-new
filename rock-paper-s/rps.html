@@ -4,19 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rps.css">
     <title>Document</title>
   </head>
   <body>
-    <div class="button">
-        <!-- Button -->
-      <button type="button" id="sc" value="sc">sc</button>
-      <button type="button" id="pa" value="pa">pa</button>
-      <button type="button" value="ro" id="ro">ro</button>
-      <!-- Result -->
-      <div class="result" id="res">RESULT</div>
-      <div id="comres">Com Result</div>
-      <div id="pres">Player Result</div>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+      <div id="intro"><i>Rock, Paper, Scissors.. With that weapon, defeat your opponent.</i></div>
+      <hr>
+    </header>
+    <div class="main">
+    <!-- Result -->
+    <div class="res-con">
+    <div id="comres"><span>COM</span> waiting for your move..</div>
+    <div class="result" id="res"></div>
     </div>
+    <!-- <div id="pres">Player Result</div> -->
+    <!-- Button -->
+    <div class="button">
+      <div>
+        <button type="button" id="sc" value="sc">sc</button>
+        <button type="button" id="pa" value="pa">pa</button>
+        <button type="button" value="ro" id="ro">ro</button>
+    </div>
+  </div>
     <script src="rps.js"></script>
   </body>
 </html>
