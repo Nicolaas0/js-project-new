@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+}
+
+#intro{
+    font-size: 18px;
+    text-align: center;
+}
+
+hr{
+    width:70%;
+}
+
+.res-con{
+    text-align:center;
+     margin-top:15px;
+}
+
+#comres{
+    font-size: 25px;
+}
+
+#res{
+    font-size:30px;
+    position:relative;
+    top: 50px;
+}
+
+.button{
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+button{
+margin: 10px;
+background-color: white;
+padding:5px;
+font-size:20px;
+}
+
+.main{
+    position:relative;
+    top: 50px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 30px;
+}
