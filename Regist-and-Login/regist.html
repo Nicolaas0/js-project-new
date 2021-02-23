@@ -13,7 +13,7 @@
       class="main-container p-x-20 relative m-t-50 left-10p text-center w-35 border rounded bg-peach borderless shadow"
     >
       <div class="main">
-        <!-- <form action=""> -->
+        <!-- <form method="POST" onsubmit="validation()"> -->
         <label class="font-rubik m-t-20 f-white" for="">Full Name</label>
         <div class="m">
           <input
@@ -69,15 +69,16 @@
           <label for="" class="font-rubik f-white">Female</label>
           <input type="radio" name="gender" />
         </div>
+        <div id="stat">Make sure to fill all the form inputs!</div>
         <button
           id="btn"
-          class="f-white font-rubik border-yellow-light bg-peach semi-rounded font-m"
+          class="f-white font-rubik border-yellow-light bg-peach semi-rounded font-m pointer"
         >
           Submit
         </button>
         <!-- </form> -->
       </div>
     </div>
-    <script type="text/jav" src="regist.js"></script>
+    <script src="regist.js"></script>
   </body>
 </html>
