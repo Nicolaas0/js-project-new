@@ -199,3 +199,8 @@ button:focus{
 .shadow{
     box-shadow: 12px 12px 0px  #e9ff70;
 }
+
+/* Cursor */
+.pointer{
+  cursor: pointer;
+}
