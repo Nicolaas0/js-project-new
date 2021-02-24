@@ -1,18 +1,24 @@
-var btn = document.getElementById('btn');
+const BTN = document.getElementById('btn');
+const STAT = document.getElementById('stat');
+var input = document.getElementsByTagName('input');
+function empval() {
 
-function validation() {
+  // var x = document.getElementsByTagName('INPUT');
 
-  var x = document.getElementsByTagName('INPUT');
-
-  for (var i = 0; i < x.length; i++){
-    var value = x[i].value;
+  for (var i = 0; i < input.length; i++){
+    var value = input[i].value;
 
     if (value !== null && value !== "") {
-      x[i].style.borderColor = "#e9ff70";
+    input[i].style.borderColor = "#e9ff70";
     } else if (value == null || value == "") {
-      x[i].style.borderColor = "#70d6ff";
+      input[i].style.borderColor = "#70d6ff";
+      STAT.innerHTML = "Highlighted input cannot be empty.";
     }
+
+    input[i].addEventListener('focusout', empval);
   };
 }
 
-btn.addEventListener("click", validation);
+
+
+BTN.addEventListener("click", empval);
