@@ -3,7 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@490&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@490&display=swap');
 
-  
+/* Hover */
+button:hover{
+  border-color: #70d6ff;
+}
+
+/* Transition */
+.tr-1{
+  transition: all 0.5s;
+}
 
 /* Display */
 .d-il {
@@ -203,4 +211,9 @@ button:focus{
 /* Cursor */
 .pointer{
   cursor: pointer;
+}
+
+/* Box Sizing */
+.box{
+  box-sizing: border-box;
 }
