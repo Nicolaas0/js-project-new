@@ -5,50 +5,6 @@ body{
 background-color: #ffd166;
  }
 
-.container{
-    width: 100%;
-    text-align: center;
-    max-width: auto;
-    margin-top: 10px;
-    margin-bottom: 200px;
-}
 
-h1{
-    font-family:'Fredoka One';
-    font-size: 50px;
-    color: #118ab2;
-}
-
-#clock{
-    font-family: 'Fredoka One';
-    font-size: 45px;
-    color:#073b4c;
-}
-
-.container .main{
-    padding: 3px;
-    margin-top: 20px;
-    width: 50%;
-}
-
-.container .btn{
-    background-color: #ffd166;
-    border:5px #ef476f solid;
-    color: #ef476f;
-    padding: 3px;
-    position: absolute;
-    top: 660px;
-    margin-top: 20px;
-    border-radius: 5px;
-    right: 600px;
-    font-family: 'Fredoka One';
-}
-
-
-footer{
-    text-align: center;
-    font-family: 'Righteous';
-    color: #ef476f;
-}
 
 
