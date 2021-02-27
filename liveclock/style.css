@@ -1,10 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 
-body{
-background-color: #ffd166;
- }
+body {
+  background-color: #eae2b7;
+}
 
+#mark{
+    transform:scale(0.9);
+}
 
+#flw-btn {
+  font-family: "Rubik";
+  background-color: #003049;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: -10px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
 
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Fredoka One";
+  text-align: center;
+  margin: 20px 0;
+  font-size: 3rem;
+  color: #003049;
+}
+
+.container {
+  position: relative;
+}
+
+#clock {
+  font-family: "Fredoka One";
+  text-align: center;
+  font-size: 3rem;
+  color: #d62828;
+}
+
+.container #img {
+  transform: scale(0.6);
+  position: relative;
+  left: 250px;
+  bottom: 60px;
+  padding: 10px;
+  border: 10px solid #f07167;
+}
+
+#chg {
+  position: relative;
+  left: 630px;
+  bottom: 145px;
+  background: none;
+  border: 5px #003049 solid;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  color: #f07167;
+  font-family: "Rubik";
+  cursor: pointer;
+  outline: none;
+  transition: all 0.05s;
+}
+
+#chg:hover {
+  transform: translateY(-10px);
+  box-shadow: 5px 10px #d62828;
+}
+
+/* #chg:active {
+  color: #f07167;
+  border-radius: 50%;
+} */
+
+footer {
+  text-align: center;
+  font-family: "Rubik";
+  color: #d62828;
+  font-size: 20px;
+}
