@@ -1,4 +1,8 @@
-const BTN = document.getElementById("chg");
+const BTN = document.getElementById('chg');
+const IMG = document.getElementById('img');
+const cc = document.getElementById('clickcounter');
+var arr = ["assest/dogmemes.jpg", "assest/meme2-min.jpg"];
+var arrIndex = 1;
 
 function clock() {
   var date = new Date();
@@ -19,4 +23,12 @@ function time(i) {
   }
   return i;
 }
+
+BTN.addEventListener("click", () => {
+  IMG.setAttribute("src", arr[arrIndex]);
+  arrIndex++;
+  if (arrIndex > 1) {
+    arrIndex = 0;
+  };
+  });
 
