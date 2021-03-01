@@ -20,14 +20,3 @@ function time(i) {
   return i;
 }
 
-function image() {
-  var arr = ["assest/dogmemes.jpg", "assest/meme2-min.jpg"];
-
-  for (let i = 0; i < arr.length; i++) {
-    var img = document.getElementById("img");
-
-    img.src = arr[i];
-  }
-}
-
-BTN.addEventListener("click", image);
