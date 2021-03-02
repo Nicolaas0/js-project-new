@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
 
 body {
-  background-color: #eae2b7;
+  background-color: #fdfffc
 }
 
-#mark{
-    transform:scale(0.9);
+#mark {
+  transform: scale(0.9);
 }
 
 #flw-btn {
@@ -21,7 +21,10 @@ body {
   margin: -10px 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  cursor:pointer;
 }
+
+
 
 a {
   color: #fff;
@@ -31,4 +34,50 @@ a {
 a:active {
   color: #fff;
   text-decoration: none;
+}
+
+h1 {
+  margin:0 0 20px 0 ;
+  text-align: center;
+  font-family:'Fredoka One';
+  font-size:3em;
+  color:#f71735;
+}
+
+#clock {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family:'Fredoka One';
+  font-size:2em;
+  color:#8338ec;
+}
+
+.container{
+  min-height:100vh;
+}
+
+.container img {
+  height:300px;
+  width: 300px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border:20px #011627  solid;
+  padding:0px;
+  box-shadow:25px 20px #ff9f1c;
+  cursor:pointer;
+}
+
+#desc{
+  margin-top: 50px;
+  text-align: center;
+  font-family:Rubik;
+  color:#f71735;
+  font-size:1.3em;
+}
+
+footer{
+  text-align:center;
+  font-family: Righteous;
+  color:#70c1b3;
 }
