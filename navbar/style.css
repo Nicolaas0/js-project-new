@@ -1,12 +1,39 @@
-
-
-header{
-    display:flex;
-    justify-content: space-around;
+body {
+  margin: 0;
 }
 
-span a{
-    margin-top:10px;
-    font-size:1.2em;
-    text-decoration:none;
+header {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding-top:1em;
+}
+
+#logo{
+    margin:0;
+    padding:0;
+}
+
+span a {
+  margin: 0;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding:0.3em;
+  border: 2.5px solid black;
+  color: black;
+  border-radius: 0.8em;
+}
+
+span input {
+  font-size: 1em;
+  border-radius: 1em;
+  border: 2.5px solid solid;
+  padding:0.25em 0;
+  color: black;
+}
+
+input::placeholder{
+    color:black;
 }
