@@ -1,0 +1,12 @@
+
+
+header{
+    display:flex;
+    justify-content: space-around;
+}
+
+span a{
+    margin-top:10px;
+    font-size:1.2em;
+    text-decoration:none;
+}
