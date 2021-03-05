@@ -1,0 +1,49 @@
+body{
+    margin:0;
+}
+
+nav{
+    background-color: grey;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:60px;
+}
+
+.nav-main{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex:1;
+}
+
+.logo{
+    display:flex;
+    padding-right: 30px;
+    padding-left: 4vw;
+}
+
+.nav-a{
+    display:flex;
+    justify-content: flex-start;
+}
+
+a{
+    margin:0 10px;
+}
+
+.nav-b{
+    display:flex;
+padding:0 4vw;
+display:
+}
+
+button{
+    font-size: 1.5em;
+}
+
+#signup{
+    margin-left: 15px;
+}
+
