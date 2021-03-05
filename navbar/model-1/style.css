@@ -12,7 +12,7 @@ body {
   padding: 0;
   min-width: 100%;
   max-width: 100%;
-  background-color: #bfd7ea;
+  background-color: #fff;
 }
 
 nav {
@@ -40,7 +40,7 @@ nav {
 
 span a {
   margin: 0;
-  font-size: 1em;
+  font-size: 0.9em;
   text-decoration: none;
   padding: 0.2em;
   border: 0.15em solid #ff6663;
