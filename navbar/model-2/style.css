@@ -1,49 +1,96 @@
-body{
-    margin:0;
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Fira+Sans&family=Noto+Sans+KR&family=Recursive&display=swap");
+
+* {
+  font-family: "Noto Sans KR";
 }
 
-nav{
-    background-color: grey;
-    width: 100%;
+body {
+  margin: 0;
+  background-color: #560bad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background-color: #560bad;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+
+img {
+  width: 60px;
+  height: 50px;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  padding-right: 30px;
+  padding-left: 4vw;
+}
+
+.nav-a {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+a {
+  margin: 0 20px;
+  color: #fff;
+  font-size: 0.95em;
+  font-family: "Cabin";
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.nav-b {
+  display: flex;
+  padding: 0 4vw;
+}
+
+button {
+  font-family: Recursive;
+  font-size: 1.3em;
+  border: 0.15em solid white;
+  background-color: #560bad;
+  padding: 0.3rem 0.5rem;
+  color: #fff;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+#signup {
+  margin-left: 30px;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.desc-mem{
     display:flex;
-    align-items: center;
-    justify-content: space-between;
-    height:60px;
+    flex-direction: column;
 }
 
-.nav-main{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex:1;
+#welcome img {
+  padding: 2em 0;
+  width: 50%;
+  height: 100%;
 }
-
-.logo{
-    display:flex;
-    padding-right: 30px;
-    padding-left: 4vw;
-}
-
-.nav-a{
-    display:flex;
-    justify-content: flex-start;
-}
-
-a{
-    margin:0 10px;
-}
-
-.nav-b{
-    display:flex;
-padding:0 4vw;
-display:
-}
-
-button{
-    font-size: 1.5em;
-}
-
-#signup{
-    margin-left: 15px;
-}
-
