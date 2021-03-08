@@ -19,6 +19,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 90px;
+  position: absolute;
 }
 
 img {
@@ -43,9 +44,12 @@ img {
   display: flex;
   justify-content: flex-start;
   margin-left: 30px;
+  height:30px;
 }
 
 a {
+  display: flex;
+  align-items: center;
   margin: 0 20px;
   color: #fff;
   font-size: 0.95em;
@@ -55,8 +59,8 @@ a {
   padding: 1em;
 }
 
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
 
 .nav-b {
@@ -84,9 +88,9 @@ button {
   justify-content: center;
 }
 
-.desc-mem{
-    display:flex;
-    flex-direction: column;
+.desc-mem {
+  display: flex;
+  flex-direction: column;
 }
 
 #welcome img {
