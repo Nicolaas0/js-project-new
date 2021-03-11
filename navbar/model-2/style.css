@@ -28,14 +28,32 @@ nav {
   position: absolute;
 }
 
+@media (min-width:425px){
+  
+  #hb{
+  display:none;
+}
+
+}
+
 @media (max-width:425px){
-  .nav-main .nav-a, .nav-main .nav-b{
+  .nav-main .nav-a, .nav-main .nav-b button{
     display:none;
   }
 
   nav .logo{
   transform: scale(0.6);
   padding:0;
+  }
+
+  #hb{
+    display: flex;
+      transform: scale(0.4);
+      color: #FFF;
+  }
+
+ body nav .nav-main{
+  justify-content: flex-end;
   }
 }
 
