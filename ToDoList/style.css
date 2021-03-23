@@ -1,51 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&display=swap");
 
-body{
-    background-color:#eadeda;
+body {
+  background-color: #eadeda;
 }
 
-.container{
-    width: 100%;
-    margin: 50px auto;
-    text-align: center;
+.container {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
 }
 
-.title{
-    font-size: 50px;
-    font-family: 'Lilita One';
-    color: #820263;
+.title {
+  font-size: 50px;
+  font-family: "Lilita One";
+  color: #820263;
 }
 
-.welcome{
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-family: 'Alatsi';
-    color: #d90368;
+.welcome {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Alatsi";
+  color: #d90368;
 }
 
-
-#in{
-    margin-right: 1px;
-    width: 50%;
-    font-size: 30px;
-    border: none;
-    background-color: #2e294e;
-    border-radius: 5px;
-    padding: 15px;
-    color: white;
+#in {
+  margin-right: 1px;
+  width: 50%;
+  font-size: 30px;
+  border: none;
+  background-color: #2e294e;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  outline: none;
 }
 
-button{
-    display: inline;
-    border: none;
-    background-color: #ffd400;
-    padding: 15px;
-    border-radius: 10px;
+button {
+  display: inline;
+  border: none;
+  background-color: #ffd400;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
 }
 
-li{
-    list-style: none;
-    color: #d90368;
+li {
+  list-style: none;
+  color: #d90368;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.5em;
+  font-family: "Alatsi";
+  width: 50%;
+  position: relative;
+  left: 22%;
+  margin-top: 7px;
+  background-color: #d81159;
+  color: white;
+  transition:0.5s;
+  cursor:pointer;
 }
 
+li:hover{
+    background-color: hsl(338, 100%, 64%);
+}
+
+.del{
+    display:none;
+}
