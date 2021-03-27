@@ -9,7 +9,7 @@ function validate() {
     var warning = document.getElementById('warn');
 
     if (username || password !== null && username || password !== "") {
-        warning.innerHTML = "";
+        warning.innerHTML = "Login Successfully!";
     } else {
         warning.innerHTML = "Please fill the empty inputs";
     }
