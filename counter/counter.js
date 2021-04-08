@@ -1,11 +1,24 @@
-const PLUS = document.getElementById("plus");
-const MIN = document.getElementById("minus");
-var stat = document.getElementById("stat");
+let stat = document.getElementById('stat');
+let set = 0;
 
-function pl() {
-    for (let counter = 0; counter > 0; counter++) {
-    stat.innerHTML = counter;
-  }
+let store = () => {
+  stat.innerHTML = set;
 }
 
-PLUS.addEventListener("click", pl);
+let incrase = () => {
+  set++;
+}
+
+let descrease = () => {
+  set--;
+}
+
+document.getElementById('plus').addEventListener('click', function () {
+  incrase();
+  store();
+});
+
+document.getElementById('minus').addEventListener('click', function () {
+  descrease();
+  store();
+})
