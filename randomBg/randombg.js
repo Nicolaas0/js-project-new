@@ -31,7 +31,7 @@ function setColor() {
     ")";
 }
 
-BODY.addEventListener('load', check);
+BODY.addEventListener('load', check());
 
 BTN.addEventListener("click", function () {
   setColor();
