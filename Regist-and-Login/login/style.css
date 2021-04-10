@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -7,11 +12,13 @@ body{
     position: absolute;
     top: 25%;
     left: 25%;
-    border: 1px solid black;
+    border: 1px solid rgba(126, 120, 120, 0.356);
     display: flex;
     flex-direction: row;
     width: 50%;
     justify-content: space-between;
+    border-radius: 0.4em;
+    box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 0.29)
 }
 
 .main{
@@ -19,16 +26,29 @@ body{
     margin: 5em;
 }
 
+label{
+    font-family: 'DM Sans';
+}
+
+input, button{
+    outline: none;
+}
+
 input{
     display: block;
     margin:10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    font-family: Asap;
 }
 
 .icon{
     width:13%;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     cursor: pointer;
     transition-duration: 0.5s;
+    margin-top: 0.8em;
 }
 
 .icon:hover{
@@ -44,3 +64,16 @@ input{
     width: 50%;
 }
 
+#login-with{
+    font-family: Poppins;
+    font-size: 0.8em;
+}
+
+button {
+    margin-top: 1em;
+    background-color: #FFF;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    padding: 0.2em 1.1em;
+    font-family: 'DM Sans';
+}
